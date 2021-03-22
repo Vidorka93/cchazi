@@ -6,19 +6,46 @@
 }
 
 .navbar.navbar-1 .navbar-toggler-icon {
-  background-color: black;
+  background-color: #5a5252;
   background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000");
   border-radius: 70px;
   width: 50px;
   height: 50px;
-  fill: yellow;
 }
 
 .navbar-toggler {
-  background-color: #34343b;
+  background-color: #51515a;
   border-radius: 70px;
   padding: 5px;
   margin: 5px;
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-example {
+  background-color: black;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.dark-blue-text {
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #e9c37d;
+  color: black;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background-color: #e0af55;
+  color: black;
+  border: 0;
 }
 
 section {
